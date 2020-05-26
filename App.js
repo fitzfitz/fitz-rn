@@ -16,6 +16,8 @@ import {
   StatusBar,
 } from 'react-native';
 
+import Icon from 'react-native-vector-icons/AntDesign'
+
 import {
   Header,
   LearnMoreLinks,
@@ -40,6 +42,7 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
+              <Icon name="user" color="#000" />
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
